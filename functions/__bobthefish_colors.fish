@@ -1,26 +1,27 @@
-function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthefish'
+function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobbythefish'
   switch "$color_scheme"
     case 'user'
       __bobthefish_user_color_scheme_deprecated
       return
 
       case 'bobby'
-        set -l base00  2E3440
-        set -l base01  3B4252
+        set -l base00  0c1f36
+        set -l base01  874d8a
         set -l base02  254cb4
-        set -l base03  4C566A
+        set -l base03  4b4f70
         set -l base04  D8DEE9
         set -l base05  E5E9F0
         set -l base06  ECEFF4
         set -l base07  8FBCBB
-        set -l base08  88C0D0
-        set -l base09  81A1C1
+        set -l base08  2cd3d1
+        set -l base09  265481
         set -l base0A  5E81AC
-        set -l base0B  ff8f8f
+        set -l base0B  ffc89a
         set -l base0C  D08770
         set -l base0D  8fafff
-        set -l base0E  55b987
+        set -l base0E  a2a3fb
         set -l base0F  B48EAD
+        set -l vim     019833
 
         set -l colorfg $base00
 
@@ -38,9 +39,9 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
         set -x color_repo_dirty               $base0B $colorfg
         set -x color_repo_staged              $base0D $colorfg
 
-        set -x color_vi_mode_default          $base08 $colorfg --bold
-        set -x color_vi_mode_insert           $base06 $colorfg --bold
-        set -x color_vi_mode_visual           $base07 $colorfg --bold
+        set -x color_vi_mode_default          $vim $colorfg --bold
+        set -x color_vi_mode_insert           $vim $colorfg --bold
+        set -x color_vi_mode_visual           $vim $colorfg --bold
 
         set -x color_vagrant                  $base02 $colorfg --bold
         set -x color_k8s                      $base02 $colorfg --bold
