@@ -22,6 +22,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobbyt
         set -l base0E  a2a3fb
         set -l base0F  B48EAD
         set -l vim     019833
+        set -l uh      232189
 
         set -l colorfg $base00
 
@@ -45,8 +46,8 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobbyt
 
         set -x color_vagrant                  $base02 $colorfg --bold
         set -x color_k8s                      $base02 $colorfg --bold
-        set -x color_username                 $base02 $base0D --bold
-        set -x color_hostname                 $base02 $base0D
+        set -x color_username                 $uh $base0D --bold
+        set -x color_hostname                 $uh $base0D
         set -x color_rvm                      $base09 $colorfg --bold
         set -x color_nvm                      $base09 $colorfg --bold
         set -x color_virtualfish              $base09 $colorfg --bold

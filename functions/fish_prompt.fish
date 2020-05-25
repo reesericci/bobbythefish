@@ -33,9 +33,9 @@
 #     set -g theme_display_virtualenv no
 #     set -g theme_display_nix no
 #     set -g theme_display_ruby no
-#     set -g theme_display_user ssh
-#     set -g theme_display_hostname ssh
-#     set -g theme_display_sudo_user yes
+     set -g theme_display_user yes
+     set -g theme_display_hostname yes
+     set -g theme_display_sudo_user yes
 #     set -g theme_display_vi no
 #     set -g theme_display_nvm yes
 #     set -g theme_avoid_ambiguous_glyphs yes
