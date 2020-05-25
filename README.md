@@ -1,18 +1,15 @@
-# bobthefish
+# bobbythefish
 
-`bobthefish` is a Powerline-style, Git-aware [fish][btf-fish] theme optimized for awesome.
-
-[![Oh My Fish](https://img.shields.io/badge/Framework-Oh_My_Fish-blue.svg?style=flat)](https://github.com/oh-my-fish/oh-my-fish) [![MIT License](https://img.shields.io/github/license/oh-my-fish/theme-bobthefish.svg?style=flat)](/LICENSE.md)
-
-![bobthefish][btf-screencast]
-
+`bobbythefish` is the brother of the powerline-style shell [bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 
 
 ## Installation
 
+Clone the repository & cd into the parent directory
+
 Be sure to have Oh My Fish installed. Then just:
 
-    omf install bobthefish
+    omf install bobbythefish
 
 You will need a [Powerline-patched font][btf-patching] for this to work, unless you enable the compatibility fallback option:
 
@@ -22,6 +19,7 @@ You will need a [Powerline-patched font][btf-patching] for this to work, unless 
 
     set -g theme_nerd_fonts yes
 
+<<<<<<< HEAD
 This theme is based loosely on [agnoster][btf-agnoster].
 
 
@@ -404,3 +402,6 @@ end
 [btf-terminal-dark]:   https://cloud.githubusercontent.com/assets/53660/16141583/0b3e8eea-3412-11e6-8068-617c5371f6ea.png "terminal-dark"
 [btf-nord]:            https://user-images.githubusercontent.com/39213657/72811435-f64ca800-3c5f-11ea-8711-dcce8cfc50fb.png "nord"
 [gruvbox-light]:   https://user-images.githubusercontent.com/458535/97345492-6a207e80-188a-11eb-92df-30f33419238b.png "gruvbox-light"
+=======
+This theme is based [bobthefish](https://github.com/oh-my-fish/theme-bobthefish).
+>>>>>>> 7cb55a7 (Update README.md)
