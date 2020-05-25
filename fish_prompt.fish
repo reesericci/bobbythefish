@@ -1,6 +1,6 @@
-# name: bobthefish
+# name: bobbythefish
 #
-# bobthefish is a Powerline-style, Git-aware fish theme optimized for awesome.
+# bobbythefish is a Powerline-style, Git-aware fish theme optimized for awesome.
 #
 # You will need a Powerline-patched font for this to work:
 #
@@ -44,7 +44,7 @@
 #     set -g theme_show_exit_status yes
 #     set -g theme_display_jobs_verbose yes
 #     set -g default_user your_normal_user
-#     set -g theme_color_scheme dark
+      set -g theme_color_scheme bobby
 #     set -g fish_prompt_pwd_dir_length 0
 #     set -g theme_project_dir_length 1
 #     set -g theme_newline_cursor yes
@@ -1040,7 +1040,7 @@ end
 # Apply theme
 # ==============================
 
-function fish_prompt -d 'bobthefish, a fish theme optimized for awesome'
+function fish_prompt -d 'bobbythefish, a fish theme optimized for awesome'
     # Save the last status for later (do this before anything else)
     set -l last_status $status
 
