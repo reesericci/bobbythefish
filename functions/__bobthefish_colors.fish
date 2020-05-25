@@ -4,6 +4,55 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       __bobthefish_user_color_scheme_deprecated
       return
 
+      case 'bobby'
+        set -l base00  2E3440
+        set -l base01  3B4252
+        set -l base02  254cb4
+        set -l base03  4C566A
+        set -l base04  D8DEE9
+        set -l base05  E5E9F0
+        set -l base06  ECEFF4
+        set -l base07  8FBCBB
+        set -l base08  88C0D0
+        set -l base09  81A1C1
+        set -l base0A  5E81AC
+        set -l base0B  ff8f8f
+        set -l base0C  D08770
+        set -l base0D  8fafff
+        set -l base0E  55b987
+        set -l base0F  B48EAD
+
+        set -l colorfg $base00
+
+        set -x color_initial_segment_exit     $base05 $base08 --bold
+        set -x color_initial_segment_su       $base05 $base0B --bold
+        set -x color_initial_segment_jobs     $base08 $base0D --bold
+
+        set -x color_path                     $base02 $base05
+        set -x color_path_basename            $base02 $base06 --bold
+        set -x color_path_nowrite             $base02 $base08
+        set -x color_path_nowrite_basename    $base02 $base08 --bold
+
+        set -x color_repo                     $base0E $colorfg
+        set -x color_repo_work_tree           $base02 $colorfg --bold
+        set -x color_repo_dirty               $base0B $colorfg
+        set -x color_repo_staged              $base0D $colorfg
+
+        set -x color_vi_mode_default          $base08 $colorfg --bold
+        set -x color_vi_mode_insert           $base06 $colorfg --bold
+        set -x color_vi_mode_visual           $base07 $colorfg --bold
+
+        set -x color_vagrant                  $base02 $colorfg --bold
+        set -x color_k8s                      $base02 $colorfg --bold
+        set -x color_username                 $base02 $base0D --bold
+        set -x color_hostname                 $base02 $base0D
+        set -x color_rvm                      $base09 $colorfg --bold
+        set -x color_nvm                      $base09 $colorfg --bold
+        set -x color_virtualfish              $base09 $colorfg --bold
+        set -x color_virtualgo                $base09 $colorfg --bold
+        set -x color_desk                     $base09 $colorfg --bold
+
+
     case 'terminal' 'terminal-dark*'
       set -l colorfg black
       [ "$color_scheme" = 'terminal-dark-white' ]; and set colorfg white
