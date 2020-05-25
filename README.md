@@ -19,7 +19,7 @@ You will need a [Powerline-patched font][btf-patching] for this to work, unless 
 
     set -g theme_nerd_fonts yes
 
-<<<<<<< HEAD
+
 This theme is based loosely on [agnoster][btf-agnoster].
 
 
@@ -403,5 +403,7 @@ end
 [btf-nord]:            https://user-images.githubusercontent.com/39213657/72811435-f64ca800-3c5f-11ea-8711-dcce8cfc50fb.png "nord"
 [gruvbox-light]:   https://user-images.githubusercontent.com/458535/97345492-6a207e80-188a-11eb-92df-30f33419238b.png "gruvbox-light"
 =======
+=======
+>>>>>>> e39c1a3 (Update README.md)
 This theme is based [bobthefish](https://github.com/oh-my-fish/theme-bobthefish).
 >>>>>>> 7cb55a7 (Update README.md)
