@@ -5,11 +5,9 @@
 
 ## Installation
 
-Clone the repository & cd into the parent directory
-
 Be sure to have Oh My Fish installed. Then just:
 
-    omf install bobbythefish
+```git clone https://github.com/reesericci/bobbythefish.git && omf install bobbythefish```
 
 You will need a [Powerline-patched font][btf-patching] for this to work, unless you enable the compatibility fallback option:
 
