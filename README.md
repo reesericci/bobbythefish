@@ -4,10 +4,8 @@
 
 ### Installation
 
-Clone the repository & cd into the parent directory
-
 Be sure to have Oh My Fish installed. Then just:
 
-    omf install bobbythefish
+```git clone https://github.com/reesericci/bobbythefish.git && omf install bobbythefish```
 
 This theme is based [bobthefish](https://github.com/oh-my-fish/theme-bobthefish).
