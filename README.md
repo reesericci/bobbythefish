@@ -1,5 +1,4 @@
 # bobbythefish
-=======
 
 `bobbythefish` is the brother of the powerline-style shell [bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 
@@ -9,9 +8,8 @@ Be sure to have Oh My Fish installed. Then just:
 
 ```omf install https://github.com/reesericci/bobbythefish.git```
 
-<<<<<<< HEAD
 This theme is based [bobthefish](https://github.com/oh-my-fish/theme-bobthefish).
-=======
+
 You will need a [Powerline-patched font][btf-patching] for this to work, unless you enable the compatibility fallback option:
 
     set -g theme_powerline_fonts no
@@ -22,8 +20,6 @@ You will need a [Powerline-patched font][btf-patching] for this to work, unless 
 
 
 This theme is based loosely on [agnoster][btf-agnoster].
-
-
 
 ## Features
 
@@ -408,4 +404,7 @@ end
 >>>>>>> e39c1a3 (Update README.md)
 This theme is based [bobthefish](https://github.com/oh-my-fish/theme-bobthefish).
 >>>>>>> 7cb55a7 (Update README.md)
+<<<<<<< HEAD
+>>>>>>> oh-my-fish-master
+=======
 >>>>>>> oh-my-fish-master
